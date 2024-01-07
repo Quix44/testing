@@ -12,7 +12,7 @@ export default function Home() {
 
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-pink-100">
       <Score score={score} />
       <Clicker setCount={updateCount} />
     </main>
